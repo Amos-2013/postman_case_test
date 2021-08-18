@@ -1,0 +1,15 @@
+{
+  "name": "postmancase",
+  "version": "1.0.0",
+  "description": "This is my first project npm.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/ContactList.collection.json -e ContactList.environment.json"
+  },
+  "author": "Mamoudou Camara",
+  "dependencies": {
+    "newman": "^5.2.4"
+  }
+}
